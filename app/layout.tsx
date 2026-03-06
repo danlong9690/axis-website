@@ -4,14 +4,6 @@ export const metadata = {
   title: "Axis Strategies | Pharmacy, 340B, Infusion & Healthcare Strategy Consulting",
   description:
     "Axis Strategies provides executive pharmacy leadership, 340B optimization, infusion strategy, and revenue growth consulting for healthcare organizations and FQHC systems.",
-  keywords: [
-    "340B consulting",
-    "pharmacy consulting",
-    "FQHC pharmacy strategy",
-    "infusion program development",
-    "healthcare revenue optimization",
-    "pharmacy operations consulting",
-  ],
 };
 
 export default function RootLayout({ children }) {
@@ -25,7 +17,7 @@ export default function RootLayout({ children }) {
                 <img
                   src="/logo.png"
                   alt="Axis Strategies logo"
-                  className="h-28 w-auto shrink-0"
+                  className="h-24 w-auto shrink-0"
                 />
                 <div className="hidden min-w-0 sm:flex flex-col justify-center leading-tight">
                   <div className="truncate text-lg font-semibold text-blue-950 lg:text-xl">
