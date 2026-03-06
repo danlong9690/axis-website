@@ -80,7 +80,7 @@ export default function AxisStrategiesWebsite() {
           </div>
 
           <div className="flex items-center">
-            <div className="w-full rounded-3xl border border-slate-200 bg-white p-6 shadow-xl">
+            <div className="w-full rounded-3xl border border-blue-900 bg-blue-950 p-6 shadow-xl">
 
               <div className="text-xs font-semibold uppercase tracking-[0.22em] text-blue-900">
                 Focus Areas
