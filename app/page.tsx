@@ -189,7 +189,67 @@ export default function AxisStrategiesWebsite() {
         </div>
 
       </section>
+<section id="leadership" className="py-14 sm:py-16 lg:py-20">
+  <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
+    <div className="mx-auto max-w-3xl text-center">
+      <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
+        Leadership
+      </div>
+
+      <h2 className="mt-3 text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
+        Direct access to experienced pharmacy and strategy leaders.
+      </h2>
+
+      <p className="mt-4 text-base text-slate-600 sm:text-lg">
+        Axis leadership has collectively overseen pharmacy operations exceeding
+        $1 billion in annual revenue across multi-state healthcare systems.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-5 md:grid-cols-2 sm:mt-12 sm:gap-6">
+
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8">
+        <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
+          Daniel Long, PharmD
+        </h3>
+
+        <div className="mt-1 text-sm text-blue-900">
+          Co-Founder & Principal
+        </div>
+
+        <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+          Daniel Long is a pharmacy executive with more than 15 years of
+          experience leading complex pharmacy operations across retail,
+          specialty, and 340B environments. He has served as Chief Pharmacy
+          Officer for large, complex Federally Qualified Health Center systems
+          and has overseen pharmacy programs generating more than $175 million
+          in annual revenue.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8">
+        <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
+          Christi Epps, PharmD
+        </h3>
+
+        <div className="mt-1 text-sm text-blue-900">
+          Co-Founder & Principal
+        </div>
+
+        <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+          Christi Epps is a nationally recognized pharmacy executive with more
+          than 30 years of leadership experience across large-scale pharmacy
+          operations, specialty pharmacy, and 340B strategy. She has served as
+          Chief Pharmacy Officer for large, complex Federally Qualified Health
+          Center organizations and previously led a national pharmacy services
+          organization to more than $1B in annual revenue.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* CONTACT */}
 
