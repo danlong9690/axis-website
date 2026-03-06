@@ -39,7 +39,7 @@ export default function AxisStrategiesWebsite() {
     "Executive pharmacy strategy",
     "340B optimization and compliance",
     "Contract pharmacy oversight",
-    "Referral capture and utilization",
+    "New pharmacy startup and stabilization",
     "Infusion and specialty growth",
     "Operational and financial improvement",
   ];
@@ -169,11 +169,11 @@ export default function AxisStrategiesWebsite() {
     </div>
 
     <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-      Strategic advisory for healthcare organizations operating complex pharmacy programs.
+      Strategic advisory services for healthcare organizations operating complex pharmacy programs.
     </h2>
 
     <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
-      Axis Strategies partners with healthcare leadership teams responsible for pharmacy,
+      Axis Strategies partners with leadership teams of organizations responsible for pharmacy,
       340B programs, infusion services, and specialty drug strategy.
     </p>
 
