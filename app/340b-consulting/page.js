@@ -8,6 +8,30 @@ export default function Consulting340B() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
 
+      <header className="border-b border-slate-200 bg-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
+
+          <a href="/" className="flex items-center gap-3">
+            <img
+              src="/logo.png"
+              alt="Axis Strategies logo"
+              className="h-20 w-auto"
+            />
+            <div className="font-semibold text-blue-950 text-lg">
+              Axis Strategies
+            </div>
+          </a>
+
+          <a
+            href="/"
+            className="text-sm font-semibold text-blue-900 hover:underline"
+          >
+            Back to Home
+          </a>
+
+        </div>
+      </header>
+
       <section className="mx-auto max-w-5xl px-6 py-20">
         <h1 className="text-4xl font-semibold text-slate-900">
           340B Strategy and Consulting
