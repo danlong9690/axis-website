@@ -1,4 +1,10 @@
+"use client";
+
+import { useState } from "react";
+
 export default function AxisStrategiesWebsite() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const services = [
     {
       title: "340B Strategy & Optimization",
@@ -72,6 +78,8 @@ export default function AxisStrategiesWebsite() {
     "340B optimization opportunities",
   ];
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <div className="min-h-screen bg-white text-slate-800">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
@@ -80,13 +88,13 @@ export default function AxisStrategiesWebsite() {
             <img
               src="/logo.png"
               alt="Axis Strategies logo"
-              className="h-16 w-auto shrink-0 sm:h-20 lg:h-24"
+              className="h-20 w-auto shrink-0"
             />
             <div className="hidden min-w-0 sm:flex flex-col justify-center leading-tight">
               <div className="truncate text-lg font-semibold text-blue-950 lg:text-xl">
                 Axis Strategies
               </div>
-              <div className="mt-1 text-[10px] uppercase tracking-[0.16em] text-slate-500 lg:text-xs lg:tracking-[0.18em]">
+              <div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-slate-500 lg:text-xs">
                 Pharmacy • 340B • Infusion • Growth
               </div>
             </div>
@@ -117,11 +125,100 @@ export default function AxisStrategiesWebsite() {
 
           <a
             href="#contact"
-            className="shrink-0 rounded-2xl bg-blue-900 px-3 py-2 text-xs font-semibold text-white sm:px-4 sm:py-2.5 sm:text-sm"
+            className="hidden shrink-0 rounded-2xl bg-blue-900 px-4 py-2 text-sm font-semibold text-white md:inline-block"
           >
             Start a Conversation
           </a>
+
+          <button
+            type="button"
+            className="inline-flex items-center justify-center rounded-xl p-2 text-slate-700 transition hover:bg-slate-100 md:hidden"
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((prev) => !prev)}
+          >
+            {menuOpen ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            )}
+          </button>
         </div>
+
+        {menuOpen && (
+          <div className="border-t border-slate-200 bg-white md:hidden">
+            <div className="flex flex-col px-4 py-4 sm:px-6">
+              <a
+                href="#services"
+                onClick={closeMenu}
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                Services
+              </a>
+              <a
+                href="#about"
+                onClick={closeMenu}
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                About
+              </a>
+              <a
+                href="#insights"
+                onClick={closeMenu}
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                Strategic Insights
+              </a>
+              <a
+                href="#leadership"
+                onClick={closeMenu}
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                Leadership
+              </a>
+              <a
+                href="#assessment"
+                onClick={closeMenu}
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                Executive Assessment
+              </a>
+              <a
+                href="#contact"
+                onClick={closeMenu}
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                Contact
+              </a>
+
+              <a
+                href="#contact"
+                onClick={closeMenu}
+                className="mt-3 rounded-2xl bg-blue-900 px-4 py-3 text-center text-sm font-semibold text-white"
+              >
+                Start a Conversation
+              </a>
+            </div>
+          </div>
+        )}
       </header>
 
       <section className="relative overflow-hidden">
