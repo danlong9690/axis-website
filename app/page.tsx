@@ -88,7 +88,7 @@ export default function AxisStrategiesWebsite() {
             <img
               src="/logo.png"
               alt="Axis Strategies logo"
-              className="h-20 w-auto shrink-0"
+              className="h-26 w-auto shrink-0"
             />
             <div className="hidden min-w-0 sm:flex flex-col justify-center leading-tight">
               <div className="truncate text-lg font-semibold text-blue-950 lg:text-xl">
