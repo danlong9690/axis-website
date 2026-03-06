@@ -75,12 +75,12 @@ export default function AxisStrategiesWebsite() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
           <div className="flex items-center gap-4">
             <img
               src="/logo.png"
               alt="Axis Strategies logo"
-              className="h-14 w-auto"
+              className="h-24 w-auto"
             />
             <div className="hidden sm:block">
               <div className="text-xl font-semibold text-blue-950">
