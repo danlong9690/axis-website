@@ -80,9 +80,9 @@ export default function AxisStrategiesWebsite() {
           </div>
 
           <div className="flex items-center">
-            <div className="w-full rounded-3xl border border-blue-900 bg-blue-950 p-6 shadow-xl">
+            <div className="w-full rounded-3xl bg-slate-900 p-6 shadow-xl">
 
-              <div className="text-xs font-semibold uppercase tracking-[0.22em] text-blue-900">
+              <div className="text-xs font-semibold uppercase tracking-[0.22em] text-blue-200">
                 Focus Areas
               </div>
 
@@ -91,7 +91,7 @@ export default function AxisStrategiesWebsite() {
                 {focusAreas.map((item) => (
                   <div
                     key={item}
-                    className="rounded-xl bg-slate-50 px-4 py-3 text-sm"
+                    className="rounded-xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10"
                   >
                     {item}
                   </div>
