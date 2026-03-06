@@ -250,7 +250,150 @@ export default function AxisStrategiesWebsite() {
     </div>
   </div>
 </section>
+<section id="insights" className="py-14 sm:py-16 lg:py-20">
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-3xl text-center">
+      <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
+        Strategic Insights
+      </div>
+      <h2 className="mt-3 text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
+        What healthcare leaders are navigating right now.
+      </h2>
+      <p className="mt-4 text-base text-slate-600 sm:text-lg">
+        Healthcare organizations are facing rapid changes across pharmacy
+        reimbursement, the 340B program, and specialty drug distribution.
+        Axis works with leadership teams to navigate these changes while
+        protecting both financial sustainability and patient access.
+      </p>
+    </div>
 
+    <div className="mt-10 grid gap-5 md:grid-cols-3 sm:mt-12 sm:gap-8">
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-7">
+        <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
+          The Future of 340B Is Changing
+        </h3>
+        <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+          Manufacturer restrictions, policy discussions, and operational
+          complexity are reshaping how covered entities must manage 340B
+          programs. Organizations must balance compliance, contract pharmacy
+          performance, and long-term program sustainability.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-7">
+        <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
+          Pharmacy Is a Core Revenue Engine
+        </h3>
+        <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+          For many healthcare organizations, pharmacy programs are critical to
+          financial sustainability. Low utilization, referral leakage, and
+          underperforming contract pharmacies can create major revenue gaps.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-7">
+        <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
+          Infusion and Specialty Programs Are Rapidly Expanding
+        </h3>
+        <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+          Biologic therapies and specialty medications continue to drive
+          healthcare growth. Strategic infusion and specialty program
+          development can improve both patient access and organizational
+          sustainability.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="assessment" className="bg-slate-900 py-14 text-white sm:py-16 lg:py-20">
+  <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr,0.95fr] lg:gap-10 lg:px-8">
+    <div>
+      <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-200">
+        Executive Assessment
+      </div>
+      <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl lg:text-4xl">
+        How much pharmacy opportunity is your organization leaving on the
+        table?
+      </h2>
+      <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
+        Axis offers a complimentary executive-level assessment to identify
+        opportunities in pharmacy utilization, contract pharmacy performance,
+        specialty therapy capture, infusion development, and 340B program
+        optimization.
+      </p>
+
+      <div className="mt-8 grid gap-3 sm:grid-cols-2">
+        <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
+          Pharmacy utilization rates
+        </div>
+        <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
+          Contract pharmacy performance
+        </div>
+        <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
+          Referral capture gaps
+        </div>
+        <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
+          Specialty therapy leakage
+        </div>
+        <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
+          Infusion program opportunities
+        </div>
+        <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
+          340B optimization opportunities
+        </div>
+      </div>
+    </div>
+
+    <div className="rounded-[1.75rem] bg-white p-6 text-slate-900 shadow-2xl sm:rounded-[2rem] sm:p-8">
+      <h3 className="text-xl font-semibold sm:text-2xl">
+        Request Your Assessment
+      </h3>
+      <p className="mt-3 text-sm leading-6 text-slate-600">
+        Use this form to start the conversation. You can connect it to your
+        CRM, inbox, or scheduling tool.
+      </p>
+
+      <form className="mt-6 space-y-4">
+        <input
+          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+          placeholder="Name"
+        />
+        <input
+          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+          placeholder="Organization"
+        />
+        <input
+          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+          placeholder="Title"
+        />
+        <input
+          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+          placeholder="Email"
+        />
+        <div className="grid gap-4 sm:grid-cols-2">
+          <input
+            className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+            placeholder="# Entity Pharmacies"
+          />
+          <input
+            className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+            placeholder="# Contract Pharmacies"
+          />
+        </div>
+        <input
+          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
+          placeholder="Estimated pharmacy utilization rate (optional)"
+        />
+        <button
+          type="button"
+          className="w-full rounded-2xl bg-blue-900 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5"
+        >
+          Request Assessment
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
       {/* CONTACT */}
 
       <section id="contact" className="bg-blue-50 py-20">
