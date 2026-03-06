@@ -92,26 +92,16 @@ export default function AxisStrategiesWebsite() {
             </div>
           </div>
 
-          <nav className="hidden gap-8 text-sm font-medium md:flex">
-            <a href="#services" className="hover:text-blue-900">
-              Services
-            </a>
-            <a href="#about" className="hover:text-blue-900">
-              About
-            </a>
-            <a href="#insights" className="hover:text-blue-900">
-              Strategic Insights
-            </a>
-            <a href="#leadership" className="hover:text-blue-900">
-              Leadership
-            </a>
-            <a href="#assessment" className="hover:text-blue-900">
-              Executive Assessment
-            </a>
-            <a href="#contact" className="hover:text-blue-900">
-              Contact
-            </a>
-          </nav>
+          <nav className="hidden md:flex flex-1 justify-center">
+  <div className="flex items-center justify-between w-full max-w-xl text-sm font-medium">
+    <a href="#services" className="hover:text-blue-900">Services</a>
+    <a href="#about" className="hover:text-blue-900">About</a>
+    <a href="#insights" className="hover:text-blue-900">Strategic Insights</a>
+    <a href="#leadership" className="hover:text-blue-900">Leadership</a>
+    <a href="#assessment" className="hover:text-blue-900">Executive Assessment</a>
+    <a href="#contact" className="hover:text-blue-900">Contact</a>
+  </div>
+</nav>
 
           <a
             href="#contact"
