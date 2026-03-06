@@ -75,37 +75,49 @@ export default function AxisStrategiesWebsite() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
-          <div className="flex items-center gap-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
+          <div className="flex min-w-0 items-center gap-3 sm:gap-4">
             <img
               src="/logo.png"
               alt="Axis Strategies logo"
-              className="h-24 w-auto"
+              className="h-16 w-auto shrink-0 sm:h-20 lg:h-24"
             />
-            <div className="hidden sm:block">
-              <div className="text-xl font-semibold text-blue-950">
+            <div className="hidden min-w-0 sm:flex flex-col justify-center leading-tight">
+              <div className="truncate text-lg font-semibold text-blue-950 lg:text-xl">
                 Axis Strategies
               </div>
-              <div className="text-xs uppercase tracking-[0.22em] text-slate-500">
+              <div className="mt-1 text-[10px] uppercase tracking-[0.16em] text-slate-500 lg:text-xs lg:tracking-[0.18em]">
                 Pharmacy • 340B • Infusion • Growth
               </div>
             </div>
           </div>
 
-          <nav className="hidden md:flex flex-1 justify-center">
-  <div className="flex items-center justify-between w-full max-w-xl text-sm font-medium">
-    <a href="#services" className="hover:text-blue-900">Services</a>
-    <a href="#about" className="hover:text-blue-900">About</a>
-    <a href="#insights" className="hover:text-blue-900">Strategic Insights</a>
-    <a href="#leadership" className="hover:text-blue-900">Leadership</a>
-    <a href="#assessment" className="hover:text-blue-900">Executive Assessment</a>
-    <a href="#contact" className="hover:text-blue-900">Contact</a>
-  </div>
-</nav>
+          <nav className="hidden flex-1 justify-center md:flex">
+            <div className="flex w-full max-w-2xl items-center justify-between px-8 text-sm font-medium">
+              <a href="#services" className="whitespace-nowrap hover:text-blue-900">
+                Services
+              </a>
+              <a href="#about" className="whitespace-nowrap hover:text-blue-900">
+                About
+              </a>
+              <a href="#insights" className="whitespace-nowrap hover:text-blue-900">
+                Strategic Insights
+              </a>
+              <a href="#leadership" className="whitespace-nowrap hover:text-blue-900">
+                Leadership
+              </a>
+              <a href="#assessment" className="whitespace-nowrap hover:text-blue-900">
+                Executive Assessment
+              </a>
+              <a href="#contact" className="whitespace-nowrap hover:text-blue-900">
+                Contact
+              </a>
+            </div>
+          </nav>
 
           <a
             href="#contact"
-            className="rounded-2xl bg-blue-900 px-4 py-2 text-sm font-semibold text-white"
+            className="shrink-0 rounded-2xl bg-blue-900 px-3 py-2 text-xs font-semibold text-white sm:px-4 sm:py-2.5 sm:text-sm"
           >
             Start a Conversation
           </a>
@@ -114,39 +126,39 @@ export default function AxisStrategiesWebsite() {
 
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-slate-100" />
-        <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-2 lg:px-8 lg:py-28">
+        <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 sm:py-16 lg:grid-cols-2 lg:gap-12 lg:px-8 lg:py-28">
           <div className="max-w-2xl">
-            <div className="mb-4 inline-flex rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-blue-900">
+            <div className="mb-4 inline-flex rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-blue-900 sm:text-xs">
               Senior-Led Healthcare Strategy
             </div>
 
-            <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+            <h1 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl lg:text-6xl">
               Executive Pharmacy, 340B, Infusion, and Revenue Strategy
             </h1>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+            <p className="mt-5 max-w-xl text-base leading-7 text-slate-600 sm:mt-6 sm:text-lg sm:leading-8">
               Axis Strategies helps healthcare organizations strengthen pharmacy
               performance, optimize 340B strategy, expand specialty and infusion
               services, and improve long-term financial sustainability.
             </p>
 
-            <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-500">
+            <p className="mt-5 max-w-2xl text-sm leading-6 text-slate-500 sm:mt-6 sm:leading-7">
               Axis leadership has served as Chief Pharmacy Officer for large,
               complex FQHC organizations and collectively overseen pharmacy
               operations exceeding $1 billion in annual revenue across
               multi-state healthcare systems.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
               <a
                 href="#assessment"
-                className="rounded-2xl bg-blue-900 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-200 transition hover:-translate-y-0.5"
+                className="rounded-2xl bg-blue-900 px-5 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-blue-200 transition hover:-translate-y-0.5 sm:px-6"
               >
                 Request Executive Assessment
               </a>
               <a
                 href="#services"
-                className="rounded-2xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-blue-900 hover:text-blue-900"
+                className="rounded-2xl border border-slate-300 px-5 py-3 text-center text-sm font-semibold text-slate-700 transition hover:border-blue-900 hover:text-blue-900 sm:px-6"
               >
                 Explore Services
               </a>
@@ -154,12 +166,12 @@ export default function AxisStrategiesWebsite() {
           </div>
 
           <div className="flex items-center">
-            <div className="w-full rounded-[2rem] border border-slate-200 bg-white p-6 shadow-2xl">
-              <div className="rounded-3xl bg-slate-900 p-6 text-white">
-                <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-200">
+            <div className="w-full rounded-[1.75rem] border border-slate-200 bg-white p-4 shadow-2xl sm:rounded-[2rem] sm:p-6">
+              <div className="rounded-3xl bg-slate-900 p-5 text-white sm:p-6">
+                <div className="text-xs font-semibold uppercase tracking-[0.22em] text-blue-200">
                   Focus Areas
                 </div>
-                <div className="mt-6 grid gap-3">
+                <div className="mt-5 grid gap-3">
                   {focusAreas.map((item) => (
                     <div
                       key={item}
@@ -175,53 +187,55 @@ export default function AxisStrategiesWebsite() {
         </div>
       </section>
 
-      <section id="services" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section id="services" className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="max-w-3xl">
           <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
             Services
           </div>
-          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+          <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
             Strategic services designed for healthcare organizations that need
             results.
           </h2>
-          <p className="mt-4 text-lg text-slate-600">
+          <p className="mt-4 text-base text-slate-600 sm:text-lg">
             Axis combines executive leadership, operational experience,
             financial discipline, and healthcare-specific strategy to support
             complex pharmacy environments.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}
-              className="rounded-2xl border border-slate-200 p-8 shadow-sm"
+              className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8"
             >
-              <h3 className="text-xl font-semibold text-slate-900">
+              <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
                 {service.title}
               </h3>
-              <p className="mt-4 text-slate-600">{service.text}</p>
+              <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+                {service.text}
+              </p>
             </div>
           ))}
         </div>
       </section>
 
-      <section id="about" className="bg-slate-50 py-20">
-        <div className="mx-auto max-w-6xl px-6">
+      <section id="about" className="bg-slate-50 py-14 sm:py-16 lg:py-20">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-4xl text-center">
             <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
               About Axis
             </div>
-            <h2 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
               Built by pharmacy leaders who understand both mission and margin.
             </h2>
-            <p className="mt-6 text-lg leading-8 text-slate-600">
+            <p className="mt-6 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
               Axis Strategies partners with healthcare leadership teams
               navigating the growing complexity of pharmacy operations, 340B
               optimization, infusion expansion, specialty growth, and revenue
               sustainability.
             </p>
-            <p className="mt-5 text-lg leading-8 text-slate-600">
+            <p className="mt-5 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
               Our approach is practical, senior-led, and grounded in real
               operating experience. We help organizations clarify priorities,
               strengthen performance, and move critical initiatives forward with
@@ -231,16 +245,16 @@ export default function AxisStrategiesWebsite() {
         </div>
       </section>
 
-      <section id="insights" className="py-20">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section id="insights" className="py-14 sm:py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
               Strategic Insights
             </div>
-            <h2 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
               What healthcare leaders are navigating right now.
             </h2>
-            <p className="mt-4 text-lg text-slate-600">
+            <p className="mt-4 text-base text-slate-600 sm:text-lg">
               Healthcare organizations are facing rapid changes across pharmacy
               reimbursement, the 340B program, and specialty drug distribution.
               Axis works with leadership teams to navigate these changes while
@@ -248,66 +262,70 @@ export default function AxisStrategiesWebsite() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
+          <div className="mt-10 grid gap-5 md:grid-cols-3 sm:mt-12 sm:gap-8">
             {insights.map((item) => (
               <div
                 key={item.title}
-                className="rounded-2xl border border-slate-200 p-6 shadow-sm"
+                className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-7"
               >
-                <h3 className="text-xl font-semibold text-slate-900">
+                <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
                   {item.title}
                 </h3>
-                <p className="mt-4 text-slate-600">{item.text}</p>
+                <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+                  {item.text}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="leadership" className="py-20">
-        <div className="mx-auto max-w-6xl px-6">
+      <section id="leadership" className="py-14 sm:py-16 lg:py-20">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-3xl text-center">
             <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
               Leadership
             </div>
-            <h2 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
               Direct access to experienced pharmacy and strategy leaders.
             </h2>
-            <p className="mt-4 text-lg text-slate-600">
+            <p className="mt-4 text-base text-slate-600 sm:text-lg">
               Axis leadership has collectively overseen pharmacy operations
               exceeding $1 billion in annual revenue across multi-state
               healthcare systems.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
+          <div className="mt-10 grid gap-5 md:grid-cols-2 sm:mt-12 sm:gap-6">
             {leadership.map((person) => (
               <div
                 key={person.name}
-                className="rounded-2xl border border-slate-200 p-8 shadow-sm"
+                className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8"
               >
-                <h3 className="text-xl font-semibold text-slate-900">
+                <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
                   {person.name}
                 </h3>
                 <div className="mt-1 text-sm text-blue-900">{person.title}</div>
-                <p className="mt-4 text-slate-600">{person.bio}</p>
+                <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+                  {person.bio}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="assessment" className="bg-slate-900 py-20 text-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr,0.95fr] lg:px-8">
+      <section id="assessment" className="bg-slate-900 py-14 text-white sm:py-16 lg:py-20">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr,0.95fr] lg:gap-10 lg:px-8">
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-200">
               Executive Assessment
             </div>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl lg:text-4xl">
               How much pharmacy opportunity is your organization leaving on the
               table?
             </h2>
-            <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
+            <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
               Axis offers a complimentary executive-level assessment to identify
               opportunities in pharmacy utilization, contract pharmacy
               performance, specialty therapy capture, infusion development, and
@@ -326,8 +344,10 @@ export default function AxisStrategiesWebsite() {
             </div>
           </div>
 
-          <div className="rounded-[2rem] bg-white p-8 text-slate-900 shadow-2xl">
-            <h3 className="text-2xl font-semibold">Request Your Assessment</h3>
+          <div className="rounded-[1.75rem] bg-white p-6 text-slate-900 shadow-2xl sm:rounded-[2rem] sm:p-8">
+            <h3 className="text-xl font-semibold sm:text-2xl">
+              Request Your Assessment
+            </h3>
             <p className="mt-3 text-sm leading-6 text-slate-600">
               Use this form to start the conversation. You can connect it to
               your CRM, inbox, or scheduling tool.
@@ -335,33 +355,33 @@ export default function AxisStrategiesWebsite() {
 
             <form className="mt-6 space-y-4">
               <input
-                className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                 placeholder="Name"
               />
               <input
-                className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                 placeholder="Organization"
               />
               <input
-                className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                 placeholder="Title"
               />
               <input
-                className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                 placeholder="Email"
               />
               <div className="grid gap-4 sm:grid-cols-2">
                 <input
-                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                   placeholder="# Entity Pharmacies"
                 />
                 <input
-                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                  className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                   placeholder="# Contract Pharmacies"
                 />
               </div>
               <input
-                className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-blue-900"
+                className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
                 placeholder="Estimated pharmacy utilization rate (optional)"
               />
               <button
@@ -375,15 +395,15 @@ export default function AxisStrategiesWebsite() {
         </div>
       </section>
 
-      <section id="contact" className="bg-blue-50 py-20">
-        <div className="mx-auto max-w-5xl px-6 text-center">
+      <section id="contact" className="bg-blue-50 py-14 sm:py-16 lg:py-20">
+        <div className="mx-auto max-w-5xl px-4 text-center sm:px-6">
           <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
             Contact
           </div>
-          <h2 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
+          <h2 className="mt-3 text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
             Start a conversation with Axis.
           </h2>
-          <p className="mt-4 text-lg text-slate-600">
+          <p className="mt-4 text-base text-slate-600 sm:text-lg">
             Axis partners with healthcare organizations seeking strategic
             pharmacy leadership, 340B optimization, infusion planning, and
             revenue growth.
@@ -397,7 +417,7 @@ export default function AxisStrategiesWebsite() {
         </div>
       </section>
 
-      <footer className="border-t border-slate-200 py-8 text-center text-sm text-slate-500">
+      <footer className="border-t border-slate-200 px-4 py-8 text-center text-sm text-slate-500">
         © 2026 Axis Strategies. All rights reserved.
       </footer>
     </div>
