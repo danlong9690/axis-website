@@ -71,11 +71,13 @@ export default function AxisStrategiesWebsite() {
             </p>
 
             <p className="mt-6 text-base text-slate-500">
-              Axis leadership has served as Chief Pharmacy Officer for large,
-              complex FQHC organizations and collectively overseen pharmacy
-              operations exceeding $1 billion in annual revenue across
-              multi-state healthcare systems.
-            </p>
+              Axis leadership has served in executive roles across both for-profit
+              and nonprofit healthcare organizations, including Chief Executive
+              Officer, Chief Pharmacy Officer, and other senior leadership
+              positions. Collectively, they have led complex pharmacy operations
+              generating more than $1 billion in annual revenue across multi-state
+              healthcare systems.
+</p>
 
           </div>
 
