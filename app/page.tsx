@@ -158,7 +158,92 @@ export default function AxisStrategiesWebsite() {
         </div>
 
       </section>
+{/* ORGANIZATIONS WE SUPPORT */}
 
+<section id="organizations-we-support" className="bg-slate-50 py-20">
+
+  <div className="mx-auto max-w-7xl px-6 text-center">
+
+    <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
+      Organizations We Support
+    </div>
+
+    <h2 className="mt-3 text-3xl font-semibold text-slate-900">
+      Strategic advisory for healthcare organizations operating complex pharmacy programs.
+    </h2>
+
+    <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
+      Axis Strategies partners with healthcare leadership teams responsible for pharmacy,
+      340B programs, infusion services, and specialty drug strategy.
+    </p>
+
+    <div className="mt-12 grid gap-6 md:grid-cols-3">
+
+      <div className="rounded-2xl border border-slate-200 p-8 shadow-sm">
+        <h3 className="text-xl font-semibold text-slate-900">
+          Federally Qualified Health Centers
+        </h3>
+        <p className="mt-4 text-slate-600">
+          FQHC systems seeking to optimize 340B performance, expand pharmacy
+          utilization, and strengthen long-term program sustainability.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-8 shadow-sm">
+        <h3 className="text-xl font-semibold text-slate-900">
+          Health Systems
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Integrated healthcare organizations developing or optimizing pharmacy,
+          specialty, and infusion services across multiple sites of care.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-8 shadow-sm">
+        <h3 className="text-xl font-semibold text-slate-900">
+          Ryan White & Public Health Programs
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Public health organizations seeking strategic pharmacy leadership,
+          specialty program growth, and improved patient access to therapy.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-8 shadow-sm">
+        <h3 className="text-xl font-semibold text-slate-900">
+          Multi-Site Healthcare Organizations
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Organizations operating complex pharmacy environments requiring
+          operational strategy, governance, and performance improvement.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-8 shadow-sm">
+        <h3 className="text-xl font-semibold text-slate-900">
+          Pharmacy Leadership Teams
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Executive leaders responsible for pharmacy performance, regulatory
+          compliance, and revenue sustainability.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 p-8 shadow-sm">
+        <h3 className="text-xl font-semibold text-slate-900">
+          Healthcare Boards & Executives
+        </h3>
+        <p className="mt-4 text-slate-600">
+          Boards and executive leadership teams seeking independent strategic
+          guidance for pharmacy, 340B, and infusion program development.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* ABOUT */}
 
