@@ -20,17 +20,17 @@ export default function RootLayout({
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
     {/* LOGO + TAGLINE */}
-    <div className="flex flex-col items-center pt-6 pb-4">
+    <div className="flex flex-col items-center pt-6 pb-2">
 
       <a href="/" className="flex justify-center">
         <img
           src="/logo.png"
           alt="Axis Strategies logo"
-          className="h-44 w-auto"
+          className="h-48 w-auto"
         />
       </a>
 
-      <div className="mt-3 text-sm tracking-[0.18em] text-slate-500 text-center">
+      <div className="mt-1 text-lg tracking-[0.12em] text-slate-600 text-center">
         Where pharmacy strategy meets performance
       </div>
 
@@ -38,33 +38,33 @@ export default function RootLayout({
 
 
     {/* NAVIGATION */}
-    <div className="flex items-center justify-between pb-4">
+    <div className="flex items-center justify-between pb-5">
 
       <nav className="flex flex-1 justify-center">
 
-        <div className="flex items-center gap-8 text-sm font-medium">
+        <div className="flex items-center gap-10 text-base font-medium">
 
-          <a href="/#services" className="hover:text-blue-900">
+          <a href="/#services" className="hover:text-blue-900 transition">
             Services
           </a>
 
-          <a href="/#about" className="hover:text-blue-900">
+          <a href="/#about" className="hover:text-blue-900 transition">
             About
           </a>
 
-          <a href="/#insights" className="hover:text-blue-900">
+          <a href="/#insights" className="hover:text-blue-900 transition">
             Strategic Insights
           </a>
 
-          <a href="/#leadership" className="hover:text-blue-900">
+          <a href="/#leadership" className="hover:text-blue-900 transition">
             Leadership
           </a>
 
-          <a href="/#assessment" className="hover:text-blue-900">
+          <a href="/#assessment" className="hover:text-blue-900 transition">
             Executive Assessment
           </a>
 
-          <a href="/#contact" className="hover:text-blue-900">
+          <a href="/#contact" className="hover:text-blue-900 transition">
             Contact
           </a>
 
@@ -74,7 +74,7 @@ export default function RootLayout({
 
       <a
         href="/#contact"
-        className="ml-6 rounded-2xl bg-blue-900 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800"
+        className="ml-6 rounded-2xl bg-blue-900 px-5 py-2 text-base font-semibold text-white hover:bg-blue-800"
       >
         Start a Conversation
       </a>
