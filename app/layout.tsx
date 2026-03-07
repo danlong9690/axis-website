@@ -15,57 +15,75 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-slate-800">
-        <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
-          <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-            <div className="flex items-center gap-5">
-              <a href="/" className="flex min-w-0 items-center gap-3 sm:gap-4">
-                <img
-                  src="/logo.png"
-                  alt="Axis Strategies logo"
-                  className="h-32 w-auto shrink-0"
-                />
-                <div className="hidden min-w-0 sm:flex flex-col justify-center leading-tight">
-                  <div className="truncate text-2xl font-semibold text-blue-950 lg:text-3xl">
-                    Axis Strategies
-                  </div>
-                  <div className="mt-1 text-xs tracking-[0.15em] text-slate-500 lg:text-sm">
-                    Where Pharmacy Strategy Meets Performance
-                  </div>
-                </div>
-              </a>
-            </div>
+        <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
 
-            <nav className="hidden flex-1 justify-center md:flex">
-              <div className="flex items-center gap-10 text-sm font-medium">
-                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
-                  Services
-                </a>
-                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
-                  About
-                </a>
-                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
-                  Strategic Insights
-                </a>
-                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
-                  Leadership
-                </a>
-                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
-                  Executive Assessment
-                </a>
-                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
-                  Contact
-                </a>
-              </div>
-            </nav>
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-            <a
-              href="/#contact"
-              className="hidden shrink-0 rounded-2xl bg-blue-900 px-4 py-2 text-sm font-semibold text-white md:inline-block"
-            >
-              Start a Conversation
-            </a>
-          </div>
-        </header>
+    {/* LOGO + TAGLINE */}
+    <div className="flex flex-col items-center pt-6 pb-4">
+
+      <a href="/" className="flex justify-center">
+        <img
+          src="/logo.png"
+          alt="Axis Strategies logo"
+          className="h-44 w-auto"
+        />
+      </a>
+
+      <div className="mt-3 text-sm tracking-[0.18em] text-slate-500 text-center">
+        Where pharmacy strategy meets performance
+      </div>
+
+    </div>
+
+
+    {/* NAVIGATION */}
+    <div className="flex items-center justify-between pb-4">
+
+      <nav className="flex flex-1 justify-center">
+
+        <div className="flex items-center gap-8 text-sm font-medium">
+
+          <a href="/#services" className="hover:text-blue-900">
+            Services
+          </a>
+
+          <a href="/#about" className="hover:text-blue-900">
+            About
+          </a>
+
+          <a href="/#insights" className="hover:text-blue-900">
+            Strategic Insights
+          </a>
+
+          <a href="/#leadership" className="hover:text-blue-900">
+            Leadership
+          </a>
+
+          <a href="/#assessment" className="hover:text-blue-900">
+            Executive Assessment
+          </a>
+
+          <a href="/#contact" className="hover:text-blue-900">
+            Contact
+          </a>
+
+        </div>
+
+      </nav>
+
+      <a
+        href="/#contact"
+        className="ml-6 rounded-2xl bg-blue-900 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800"
+      >
+        Start a Conversation
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
 
         {children}
       </body>
