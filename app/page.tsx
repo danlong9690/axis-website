@@ -160,7 +160,7 @@ export default function AxisStrategiesWebsite() {
       </section>
 {/* ORGANIZATIONS WE SUPPORT */}
 
-<section id="organizations-we-support" className="scroll-mt-64 bg-slate-50 py-20">
+<section id="organizations" className="scroll-mt-64 bg-slate-50 py-20">
 
   <div className="mx-auto max-w-7xl px-6 text-center">
 
@@ -247,7 +247,7 @@ export default function AxisStrategiesWebsite() {
 
       {/* ABOUT */}
 
-      <section id="services" className="scroll-mt-64 mx-auto max-w-7xl px-4 py-20">
+      <section id="about" className="scroll-mt-64 bg-slate-50 py-20">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
