@@ -20,17 +20,17 @@ export default function RootLayout({
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
     {/* LOGO + TAGLINE */}
-    <div className="flex flex-col items-center pt-6 pb-2">
+    <div className="flex flex-col items-center pt-3 pb-1">
 
       <a href="/" className="flex justify-center">
         <img
           src="/logo.png"
           alt="Axis Strategies logo"
-          className="h-48 w-auto"
+          className="h-56 w-auto"
         />
       </a>
 
-      <div className="mt-1 text-lg tracking-[0.12em] text-slate-600 text-center">
+      <div className="mt-0 text-lg tracking-[0.12em] text-slate-600 text-center">
         Where pharmacy strategy meets performance
       </div>
 
@@ -38,7 +38,7 @@ export default function RootLayout({
 
 
     {/* NAVIGATION */}
-    <div className="flex items-center justify-between pb-5">
+    <div className="flex items-center justify-between pb-3">
 
       <nav className="flex flex-1 justify-center">
 
