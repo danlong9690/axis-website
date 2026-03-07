@@ -49,35 +49,39 @@ export default function SiteHeader() {
 
           <nav className="flex flex-1 justify-center">
 
-            <div className="flex items-center gap-10 text-base font-medium">
+  <div className="flex items-center gap-10 text-base font-medium">
 
-              <a href="/#services" className="hover:text-blue-900 transition">
-                Services
-              </a>
+    <a href="/#about" className="hover:text-blue-900 transition">
+      About
+    </a>
 
-              <a href="/#about" className="hover:text-blue-900 transition">
-                About
-              </a>
+    <a href="/#organizations" className="hover:text-blue-900 transition">
+      Who We Serve
+    </a>
 
-              <a href="/#insights" className="hover:text-blue-900 transition">
-                Strategic Insights
-              </a>
+    <a href="/#services" className="hover:text-blue-900 transition">
+      Services
+    </a>
 
-              <a href="/#leadership" className="hover:text-blue-900 transition">
-                Leadership
-              </a>
+    <a href="/#insights" className="hover:text-blue-900 transition">
+      Strategic Insights
+    </a>
 
-              <a href="/#assessment" className="hover:text-blue-900 transition">
-                Executive Assessment
-              </a>
+    <a href="/#leadership" className="hover:text-blue-900 transition">
+      Leadership
+    </a>
 
-              <a href="/#contact" className="hover:text-blue-900 transition">
-                Contact
-              </a>
+    <a href="/#assessment" className="hover:text-blue-900 transition">
+      Executive Assessment
+    </a>
 
-            </div>
+    <a href="/#contact" className="hover:text-blue-900 transition">
+      Contact
+    </a>
 
-          </nav>
+  </div>
+
+</nav>
 
           <a
             href="/#contact"

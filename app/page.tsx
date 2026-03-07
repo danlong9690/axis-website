@@ -110,7 +110,7 @@ export default function AxisStrategiesWebsite() {
 
       {/* SERVICES */}
 
-      <section id="services" className="mx-auto max-w-7xl px-4 py-20">
+      <section id="services" className="scroll-mt-64 mx-auto max-w-7xl px-4 py-20">
 
         <div className="max-w-3xl">
 
@@ -160,12 +160,12 @@ export default function AxisStrategiesWebsite() {
       </section>
 {/* ORGANIZATIONS WE SUPPORT */}
 
-<section id="organizations-we-support" className="bg-slate-50 py-20">
+<section id="organizations-we-support" className="scroll-mt-64 bg-slate-50 py-20">
 
   <div className="mx-auto max-w-7xl px-6 text-center">
 
     <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
-      Organizations We Support
+      Who We Serve
     </div>
 
     <h2 className="mt-3 text-3xl font-semibold text-slate-900">
@@ -247,7 +247,7 @@ export default function AxisStrategiesWebsite() {
 
       {/* ABOUT */}
 
-      <section id="about" className="bg-slate-50 py-20">
+      <section id="services" className="scroll-mt-64 mx-auto max-w-7xl px-4 py-20">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
@@ -276,7 +276,7 @@ export default function AxisStrategiesWebsite() {
         </div>
 
       </section>
-<section id="leadership" className="py-14 sm:py-16 lg:py-20">
+<section id="leadership" className="scroll-mt-64 py-14 sm:py-16 lg:py-20">
   <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
     <div className="mx-auto max-w-3xl text-center">
@@ -337,7 +337,7 @@ export default function AxisStrategiesWebsite() {
     </div>
   </div>
 </section>
-<section id="insights" className="py-14 sm:py-16 lg:py-20">
+<section id="insights" className="scroll-mt-64 py-14 sm:py-16 lg:py-20">
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
@@ -392,7 +392,7 @@ export default function AxisStrategiesWebsite() {
     </div>
   </div>
 </section>
-<section id="assessment" className="bg-slate-900 py-14 text-white sm:py-16 lg:py-20">
+<section id="assessment" className="scroll-mt-64 bg-slate-900 py-14 text-white sm:py-16 lg:py-20">
   <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr,0.95fr] lg:gap-10 lg:px-8">
     <div>
       <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-200">
@@ -483,7 +483,7 @@ export default function AxisStrategiesWebsite() {
 </section>
       {/* CONTACT */}
 
-      <section id="contact" className="bg-blue-50 py-20">
+      <section id="contact" className="scroll-mt-64 bg-blue-50 py-20">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
