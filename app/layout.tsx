@@ -22,14 +22,14 @@ export default function RootLayout({
                 <img
                   src="/logo.png"
                   alt="Axis Strategies logo"
-                  className="h-24 w-auto shrink-0"
+                  className="h-32 w-auto shrink-0"
                 />
                 <div className="hidden min-w-0 sm:flex flex-col justify-center leading-tight">
-                  <div className="truncate text-lg font-semibold text-blue-950 lg:text-xl">
+                  <div className="truncate text-2xl font-semibold text-blue-950 lg:text-3xl">
                     Axis Strategies
                   </div>
-                  <div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-slate-500 lg:text-xs">
-                    Pharmacy • 340B • Infusion • Growth
+                  <div className="mt-1 text-xs tracking-[0.15em] text-slate-500 lg:text-sm">
+                    Where pharmacy strategy meets performance
                   </div>
                 </div>
               </a>
