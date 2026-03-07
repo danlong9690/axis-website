@@ -22,7 +22,7 @@ export default function SiteHeader() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/* LOGO + TAGLINE */}
-        <div className={`flex flex-col items-center transition-all duration-300 ${scrolled ? "pt-1 pb-0" : "pt-3 pb-1"}`}>
+        <div className={`flex flex-col items-center leading-none transition-all duration-300 ${scrolled ? "pt-0 pb-0" : "pt-1 pb-0"}`}>
 
           <a href="/" className="flex justify-center">
             <img
@@ -33,12 +33,12 @@ export default function SiteHeader() {
           </a>
 
           <div
-            className={`text-center text-slate-600 transition-all duration-300 ${
-              scrolled
-                ? "max-h-0 overflow-hidden opacity-0"
-                : "text-lg tracking-[0.12em] opacity-100"
-            }`}
-          >
+  className={`text-center text-slate-600 leading-none transition-all duration-300 ${
+    scrolled
+      ? "max-h-0 overflow-hidden opacity-0"
+      : "mt-[-6px] text-lg tracking-[0.12em] opacity-100"
+  }`}
+>
             Where Pharmacy Strategy Meets Performance
           </div>
 
