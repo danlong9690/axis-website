@@ -16,8 +16,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white text-slate-800">
         <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
-          <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
-            <div className="flex min-w-0 items-center gap-3 sm:gap-4">
+          <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
+            <div className="flex items-center gap-5">
               <a href="/" className="flex min-w-0 items-center gap-3 sm:gap-4">
                 <img
                   src="/logo.png"
@@ -29,30 +29,30 @@ export default function RootLayout({
                     Axis Strategies
                   </div>
                   <div className="mt-1 text-xs tracking-[0.15em] text-slate-500 lg:text-sm">
-                    Where pharmacy strategy meets performance
+                    Where Pharmacy Strategy Meets Performance
                   </div>
                 </div>
               </a>
             </div>
 
             <nav className="hidden flex-1 justify-center md:flex">
-              <div className="flex w-full max-w-2xl items-center justify-between px-8 text-sm font-medium">
-                <a href="/#services" className="whitespace-nowrap hover:text-blue-900">
+              <div className="flex items-center gap-10 text-sm font-medium">
+                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
                   Services
                 </a>
-                <a href="/#about" className="whitespace-nowrap hover:text-blue-900">
+                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
                   About
                 </a>
-                <a href="/#insights" className="whitespace-nowrap hover:text-blue-900">
+                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
                   Strategic Insights
                 </a>
-                <a href="/#leadership" className="whitespace-nowrap hover:text-blue-900">
+                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
                   Leadership
                 </a>
-                <a href="/#assessment" className="whitespace-nowrap hover:text-blue-900">
+                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
                   Executive Assessment
                 </a>
-                <a href="/#contact" className="whitespace-nowrap hover:text-blue-900">
+                <a href="/#services" className="whitespace-nowrap text-slate-700 hover:text-blue-900 transition">
                   Contact
                 </a>
               </div>
