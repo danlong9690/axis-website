@@ -36,7 +36,7 @@ export default function SiteHeader() {
   className={`text-center text-slate-600 leading-none transition-all duration-300 ${
     scrolled
       ? "max-h-0 overflow-hidden opacity-0"
-      : "mt-[-20px] text-lg tracking-[0.12em] opacity-100"
+      : "mt-[-30px] text-lg tracking-[0.12em] opacity-100"
   }`}
 >
             Where Pharmacy Strategy Meets Performance
