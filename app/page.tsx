@@ -404,9 +404,7 @@ export default function AxisStrategiesWebsite() {
       </h2>
       <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
         Axis offers a complimentary executive-level assessment to identify
-        opportunities in pharmacy utilization, pharmacy program performance,
-        specialty therapy capture, infusion development, and 340B program
-        optimization.
+        opportunities in the following areas:
       </p>
 
       <div className="mt-8 grid gap-3 sm:grid-cols-2">
