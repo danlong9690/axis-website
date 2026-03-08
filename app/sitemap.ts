@@ -1,7 +1,7 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://axisstrategiesgroup.com"
+  const baseUrl = "https://axisstrategiesgroup.com";
 
   return [
     {
@@ -31,6 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/compliance-and-audit-readiness`,
       lastModified: new Date(),
-    }
-  ]
+    },
+  ];
 }
