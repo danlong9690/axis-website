@@ -72,6 +72,22 @@ export default function PharmacyRevenueOptimizationPage() {
       volume ramp-up, performance monitoring, and financial sustainability.
     </p>
   </div>
+
+   <div className="rounded-2xl border border-slate-200 p-6">
+    <h3 className="text-lg font-semibold">Specialty Pharmacy Credentialing</h3>
+    <p className="mt-3 text-slate-600">
+      Axis supports healthcare organizations pursuing specialty pharmacy
+      accreditation through nationally recognized bodies such as URAC and ACHC.
+      We help clients prepare for credentialing by aligning clinical programs,
+      operational workflows, compliance frameworks, and quality management
+      systems required for specialty pharmacy recognition.
+    </p>
+    <p className="mt-3 text-slate-600">
+      Our approach ensures credentialing efforts support broader pharmacy growth
+      strategies, including specialty medication management, referral capture,
+      and long-term revenue optimization.
+    </p>
+  </div>
 </div>
         </div>
       </section>

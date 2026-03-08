@@ -3,9 +3,16 @@ import type { ReactNode } from "react";
 import SiteHeader from "../components/SiteHeader";
 
 export const metadata = {
-  title: "Axis Strategies | Pharmacy, 340B, Infusion & Healthcare Strategy Consulting",
-  description:
-    "Axis Strategies provides executive pharmacy leadership, 340B optimization, infusion strategy, and revenue growth consulting for healthcare organizations and FQHC systems.",
+  title: "Axis Strategies",
+  description: "Where Pharmacy Strategy Meets Performance",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.png",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

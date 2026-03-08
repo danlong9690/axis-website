@@ -38,7 +38,7 @@ export default function AxisStrategiesWebsite() {
   const focusAreas = [
     "Executive pharmacy strategy",
     "340B optimization and compliance",
-    "Contract pharmacy oversight",
+    "Pharmacy program oversight",
     "New pharmacy startup and stabilization",
     "Infusion and specialty growth",
     "Operational and financial improvement",
@@ -362,7 +362,7 @@ export default function AxisStrategiesWebsite() {
         <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
           Manufacturer restrictions, policy discussions, and operational
           complexity are reshaping how covered entities must manage 340B
-          programs. Organizations must balance compliance, contract pharmacy
+          programs. Organizations must balance compliance, pharmacy program
           performance, and long-term program sustainability.
         </p>
       </div>
@@ -374,7 +374,7 @@ export default function AxisStrategiesWebsite() {
         <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
           For many healthcare organizations, pharmacy programs are critical to
           financial sustainability. Low utilization, referral leakage, and
-          underperforming contract pharmacies can create major revenue gaps.
+          underperforming pharmacy programs can create major revenue gaps.
         </p>
       </div>
 
@@ -404,7 +404,7 @@ export default function AxisStrategiesWebsite() {
       </h2>
       <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
         Axis offers a complimentary executive-level assessment to identify
-        opportunities in pharmacy utilization, contract pharmacy performance,
+        opportunities in pharmacy utilization, pharmacy program performance,
         specialty therapy capture, infusion development, and 340B program
         optimization.
       </p>
@@ -414,7 +414,7 @@ export default function AxisStrategiesWebsite() {
           Pharmacy utilization rates
         </div>
         <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
-          Contract pharmacy performance
+          Pharmacy program performance
         </div>
         <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
           Referral capture gaps

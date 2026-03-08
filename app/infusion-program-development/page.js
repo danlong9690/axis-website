@@ -20,11 +20,41 @@ export default function InfusionProgramDevelopmentPage() {
         </p>
 
         <p className="mt-6 text-lg text-slate-600">
-          Axis Strategies helps organizations assess infusion opportunities,
-          determine operational readiness, and build practical implementation
-          plans aligned with compliance, staffing, reimbursement, and growth
-          objectives.
+          Because infusion services are closely tied to specialty medication
+          management, our approach ensures infusion programs align with broader
+          specialty pharmacy and referral capture strategies, creating a
+          coordinated model that supports long-term program growth.
         </p>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 pb-20">
+        <div className="text-center">
+          <h2 className="text-3xl font-semibold text-slate-900">
+            Therapeutic Areas Supported
+          </h2>
+
+          <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
+            Infusion and specialty program strategies can support a wide range
+            of complex therapies across multiple disease states.
+          </p>
+        </div>
+
+        <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+          {[
+            "Rheumatology",
+            "Gastroenterology",
+            "Infectious Disease",
+            "Neurology",
+            "Immunology",
+          ].map((area) => (
+            <div
+              key={area}
+              className="rounded-2xl border border-slate-200 bg-white px-4 py-5 text-center text-sm font-medium text-slate-700 shadow-sm"
+            >
+              {area}
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="bg-slate-50 py-20">

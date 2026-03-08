@@ -17,7 +17,7 @@ export default function Consulting340B() {
         <p className="mt-6 text-lg text-slate-600">
           The 340B program has become one of the most complex operational and
           financial programs in healthcare. Covered entities must balance
-          compliance, contract pharmacy performance, manufacturer restrictions,
+          compliance, pharmacy program performance, manufacturer restrictions,
           and patient access while maintaining program sustainability.
         </p>
 
@@ -48,13 +48,18 @@ export default function Consulting340B() {
             </div>
 
             <div className="rounded-2xl border border-slate-200 p-6">
-              <h3 className="font-semibold text-lg">Contract Pharmacy Strategy</h3>
-              <p className="mt-3 text-slate-600">
-                Improve contract pharmacy performance, evaluate network
-                structure, and identify opportunities to strengthen program
-                oversight and financial results.
-              </p>
-            </div>
+  <h3 className="text-lg font-semibold">Pharmacy Strategy</h3>
+  <p className="mt-3 text-slate-600">
+    Axis advises healthcare organizations on pharmacy strategies that align
+    both entity-owned pharmacies and contract pharmacy networks with broader
+    clinical, operational, and financial objectives.
+  </p>
+  <p className="mt-3 text-slate-600">
+    We help organizations evaluate dispensing models, optimize pharmacy
+    utilization, strengthen referral capture, and ensure pharmacy operations
+    support long-term program sustainability.
+  </p>
+</div>
 
             <div className="rounded-2xl border border-slate-200 p-6">
               <h3 className="font-semibold text-lg">Compliance & Audit Readiness</h3>
