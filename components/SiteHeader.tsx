@@ -72,25 +72,29 @@ export default function SiteHeader() {
     </a>
 
     <a href="/#assessment" className="hover:text-blue-900 transition">
-      Executive Assessment
-    </a>
-
-    <a href="/#contact" className="hover:text-blue-900 transition">
-      Contact
-    </a>
-
-  </div>
+  Request Executive Assessment
+</a>
+ </div>
 
 </nav>
 
-          <a
-            href="/#contact"
-            className="ml-6 rounded-2xl bg-blue-900 px-5 py-2 text-base font-semibold text-white hover:bg-blue-800"
-          >
-            Start a Conversation
-          </a>
+          <div className="ml-6 flex items-center gap-3">
 
-        </div>
+  <a
+    href="/#assessment"
+    className="rounded-2xl bg-amber-500 px-6 py-2.5 text-base font-semibold text-white hover:bg-amber-600"
+  >
+    Request Executive Assessment
+  </a>
+
+  <a
+    href="/#contact"
+    className="rounded-2xl bg-blue-900 px-6 py-2.5 text-base font-semibold text-white hover:bg-blue-800"
+  >
+    Start a Conversation
+  </a>
+
+</div>
 
       </div>
 
