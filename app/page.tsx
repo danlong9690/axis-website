@@ -60,23 +60,23 @@ export default function AxisStrategiesWebsite() {
               Senior-Led Healthcare Strategy
             </div>
 
-            <h1 className="text-4xl font-semibold tracking-tight text-slate-900 lg:text-6xl">
-              Executive Pharmacy, 340B, Infusion, and Revenue Strategy
-            </h1>
+      <h1 className="text-4xl font-semibold tracking-tight text-slate-900 lg:text-6xl">
+  Executive Pharmacy, 340B, Infusion, and Revenue Strategy
+</h1>
 
-            <p className="mt-6 text-lg text-slate-600">
-              Axis Strategies helps healthcare organizations strengthen pharmacy
-              performance, optimize 340B strategy, expand specialty and infusion
-              services, and improve long-term financial sustainability.
-            </p>
+<p className="mt-6 text-lg text-slate-600">
+  Axis Strategies helps healthcare organizations strengthen pharmacy
+  performance, optimize 340B strategy, expand specialty and infusion
+  services, and improve long-term financial sustainability.
+</p>
 
-            <p className="mt-6 text-base text-slate-500">
-              Axis leadership has served in executive roles across both for-profit
-              and nonprofit healthcare organizations, including Chief Executive
-              Officer, Chief Pharmacy Officer, and other senior leadership
-              positions. Collectively, they have led complex pharmacy operations
-              generating more than $1 billion in annual revenue across multi-state
-              healthcare systems.
+<p className="mt-6 text-lg text-slate-600">
+  Axis leadership has served in executive roles across both for-profit
+  and nonprofit healthcare organizations, including Chief Executive
+  Officer, Chief Pharmacy Officer, and other senior leadership
+  positions. Collectively, they have led complex pharmacy operations
+  generating more than $1 billion in annual revenue across multi-state
+  healthcare systems.
 </p>
 
           </div>
