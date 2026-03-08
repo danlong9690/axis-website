@@ -18,20 +18,17 @@ export default function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur transition-all duration-300">
+
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
         {/* LOGO + TAGLINE */}
-        <div
-          className={`flex flex-col items-center leading-none transition-all duration-300 ${
-            scrolled ? "pt-0 pb-0" : "pt-1 pb-0"
-          }`}
-        >
+        <div className={`flex flex-col items-center leading-none transition-all duration-300 ${scrolled ? "pt-0 pb-0" : "pt-1 pb-0"}`}>
+
           <a href="/" className="flex justify-center">
             <img
               src="/logo.png"
               alt="Axis Strategies logo"
-              className={`w-auto shrink-0 transition-all duration-300 ${
-                scrolled ? "h-32" : "h-56"
-              }`}
+              className={`w-auto shrink-0 transition-all duration-300 ${scrolled ? "h-32" : "h-56"}`}
             />
           </a>
 
@@ -44,16 +41,16 @@ export default function SiteHeader() {
           >
             Where Pharmacy Strategy Meets Performance
           </div>
+
         </div>
 
         {/* NAVIGATION */}
-        <div
-          className={`flex items-center justify-between transition-all duration-300 ${
-            scrolled ? "pb-2" : "pb-3"
-          }`}
-        >
+        <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? "pb-2" : "pb-3"}`}>
+
           <nav className="flex flex-1 justify-center">
+
             <div className="flex items-center gap-10 text-base font-medium">
+
               <a href="/#about" className="hover:text-blue-900 transition">
                 About
               </a>
@@ -74,29 +71,33 @@ export default function SiteHeader() {
                 Leadership
               </a>
 
-              <a href="/#assessment" className="hover:text-blue-900 transition">
-                Request Executive Assessment
-              </a>
             </div>
+
           </nav>
 
+          {/* HEADER BUTTONS */}
           <div className="ml-6 flex items-center gap-3">
+
             <a
               href="/#assessment"
-              className="rounded-2xl bg-amber-500 px-6 py-2.5 text-base font-semibold text-white hover:bg-amber-600"
+              className="rounded-2xl bg-amber-500 px-6 py-2.5 text-base font-semibold text-white hover:bg-amber-600 transition"
             >
               Request Executive Assessment
             </a>
 
             <a
               href="/#contact"
-              className="rounded-2xl bg-blue-900 px-6 py-2.5 text-base font-semibold text-white hover:bg-blue-800"
+              className="rounded-2xl bg-blue-900 px-6 py-2.5 text-base font-semibold text-white hover:bg-blue-800 transition"
             >
               Start a Conversation
             </a>
+
           </div>
+
         </div>
+
       </div>
+
     </header>
   );
 }
