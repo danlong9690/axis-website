@@ -8,11 +8,11 @@ export default function AxisStrategiesWebsite() {
       text: "Strengthen compliance, improve program capture, optimize contract pharmacy performance, and prepare for changing manufacturer and reimbursement dynamics.",
       link: "/340b-consulting"
     },
-    {
-      title: "Pharmacy Leadership & Operations",
-      text: "Provide executive-level guidance for organizational structure, staffing models, workflow improvement, financial oversight, and performance accountability.",
-      link: "/fqhc-pharmacy-consulting"
-    },
+{
+  title: "Pharmacy Leadership & Operations",
+  text: "Provide executive-level guidance for organizational structure, staffing models, workflow improvement, financial oversight, and performance accountability.",
+  link: "/pharmacy-leadership-and-operations"
+},
     {
       title: "Revenue Optimization",
       text: "Identify missed revenue opportunities across entity-owned pharmacies, contract pharmacies, specialty programs, referral capture, and payor strategy.",
