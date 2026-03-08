@@ -23,11 +23,11 @@ export default function AxisStrategiesWebsite() {
       text: "Evaluate, develop, and expand infusion and specialty services with a disciplined focus on patient access, compliance, feasibility, and long-term margin.",
       link: "/infusion-program-development"
     },
-    {
-      title: "Managed Advisory Support",
-      text: "Support leadership teams with ongoing strategic advisory, project execution oversight, and practical roadmaps that can be implemented in real operating environments.",
-      link: "/fqhc-pharmacy-consulting"
-    },
+  {
+  title: "Executive Advisory Support",
+  text: "Provide ongoing executive-level pharmacy advisory support for strategy, operations, program growth, and organizational alignment.",
+  link: "/executive-advisory-support"
+},
     {
       title: "Compliance & Audit Readiness",
       text: "Build defensible operational frameworks for 340B, accreditation, payer requirements, policy development, and pharmacy governance.",
