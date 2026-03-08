@@ -29,10 +29,10 @@ export default function AxisStrategiesWebsite() {
   link: "/executive-advisory-support"
 },
     {
-      title: "Compliance & Audit Readiness",
-      text: "Build defensible operational frameworks for 340B, accreditation, payer requirements, policy development, and pharmacy governance.",
-      link: "/340b-consulting"
-    }
+  title: "Compliance & Audit Readiness",
+  text: "Help healthcare organizations strengthen compliance infrastructure, improve documentation, and prepare for audits, accreditation, and regulatory oversight.",
+  link: "/compliance-and-audit-readiness"
+},
   ];
 
   const focusAreas = [
