@@ -45,7 +45,7 @@ export default function SiteHeader() {
         </div>
 
         {/* NAVIGATION */}
-        <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? "pb-2" : "pb-3"}`}>
+        <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? "mt-6 pb-2" : "mt-6 pb-3"}`}>
 
           <nav className="flex flex-1 justify-center">
 
