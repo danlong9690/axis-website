@@ -1,4 +1,7 @@
 import { NextResponse } from "next/server";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
@@ -14,24 +17,29 @@ export async function POST(req: Request) {
       utilizationRate,
     } = data;
 
-    const subject = "New Executive Assessment Request";
+    await resend.emails.send({
+      from: "Axis Website <onboarding@resend.dev>",
+      to: ["daniel@axisstrategiesgroup.com"],
+      subject: "New Executive Assessment Request",
+      replyTo: email,
 
-    const body = `
-Name: ${name}
-Organization: ${organization}
-Title: ${title}
-Email: ${email}
+      html: `
+        <h2>New Executive Assessment Request</h2>
 
-# Entity Pharmacies: ${entityPharmacies}
-# Contract Pharmacies: ${contractPharmacies}
-Estimated Utilization Rate: ${utilizationRate}
-`;
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Organization:</strong> ${organization}</p>
+        <p><strong>Title:</strong> ${title || "Not provided"}</p>
+        <p><strong>Email:</strong> ${email}</p>
 
-    return NextResponse.json({
-      success: true,
-      subject,
-      body,
+        <hr/>
+
+        <p><strong># Entity Pharmacies:</strong> ${entityPharmacies || "Not provided"}</p>
+        <p><strong># Contract Pharmacies:</strong> ${contractPharmacies || "Not provided"}</p>
+        <p><strong>Estimated Utilization Rate:</strong> ${utilizationRate || "Not provided"}</p>
+      `,
     });
+
+    return NextResponse.json({ success: true });
 
   } catch (error) {
     console.error("Executive assessment error:", error);
