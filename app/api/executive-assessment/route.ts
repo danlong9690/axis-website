@@ -18,21 +18,16 @@ export async function POST(req: Request) {
     } = data;
 
     await resend.emails.send({
-      from: "Axis Website <onboarding@resend.dev>",
+      from: "Axis Website <noreply@axisstrategiesgroup.com>",
       to: ["daniel@axisstrategiesgroup.com"],
       subject: "New Executive Assessment Request",
       replyTo: email,
-
       html: `
         <h2>New Executive Assessment Request</h2>
-
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Organization:</strong> ${organization}</p>
         <p><strong>Title:</strong> ${title || "Not provided"}</p>
         <p><strong>Email:</strong> ${email}</p>
-
-        <hr/>
-
         <p><strong># Entity Pharmacies:</strong> ${entityPharmacies || "Not provided"}</p>
         <p><strong># Contract Pharmacies:</strong> ${contractPharmacies || "Not provided"}</p>
         <p><strong>Estimated Utilization Rate:</strong> ${utilizationRate || "Not provided"}</p>
@@ -40,7 +35,6 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ success: true });
-
   } catch (error) {
     console.error("Executive assessment error:", error);
 
