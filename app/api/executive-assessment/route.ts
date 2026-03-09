@@ -17,55 +17,62 @@ export async function POST(req: Request) {
       utilizationRate,
     } = data;
 
+    if (!name || !email) {
+      return NextResponse.json(
+        { error: "Missing required fields." },
+        { status: 400 }
+      );
+    }
+
+    /* EMAIL TO AXIS */
+
     await resend.emails.send({
       from: "Axis Website <noreply@axisstrategiesgroup.com>",
       to: ["daniel@axisstrategiesgroup.com"],
       subject: "New Executive Assessment Request",
       replyTo: email,
       html: `
-        <h2>New Executive Assessment Request</h2>
+        <h2>Executive Assessment Request</h2>
+
         <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Organization:</strong> ${organization}</p>
+        <p><strong>Organization:</strong> ${organization || "Not provided"}</p>
         <p><strong>Title:</strong> ${title || "Not provided"}</p>
         <p><strong>Email:</strong> ${email}</p>
+
+        <hr/>
+
         <p><strong># Entity Pharmacies:</strong> ${entityPharmacies || "Not provided"}</p>
         <p><strong># Contract Pharmacies:</strong> ${contractPharmacies || "Not provided"}</p>
         <p><strong>Estimated Utilization Rate:</strong> ${utilizationRate || "Not provided"}</p>
       `,
     });
 
+    /* CONFIRMATION EMAIL TO USER */
+
     await resend.emails.send({
       from: "Axis Strategies <noreply@axisstrategiesgroup.com>",
       to: [email],
-      subject: "We received your executive assessment request",
+      subject: "Your Executive Assessment Request",
       html: `
-        <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #0f172a;">
-          <p>Hi ${name || "there"},</p>
+        <div style="font-family: Arial, sans-serif; line-height:1.6; color:#0f172a;">
+          <p>Hi ${name},</p>
 
-          <p>Thank you for requesting an executive assessment from Axis Strategies.</p>
+          <p>Thank you for requesting an executive pharmacy assessment from Axis Strategies.</p>
 
-          <p>We received your submission and a member of our team will review your information and follow up shortly.</p>
+          <p>A member of our team will review your information and follow up shortly.</p>
 
-          <p><strong>Your submission details:</strong></p>
-          <p>
-            Organization: ${organization}<br/>
-            Title: ${title || "Not provided"}<br/>
-            # Entity Pharmacies: ${entityPharmacies || "Not provided"}<br/>
-            # Contract Pharmacies: ${contractPharmacies || "Not provided"}<br/>
-            Estimated Utilization Rate: ${utilizationRate || "Not provided"}
-          </p>
-
-          <p>We appreciate the opportunity to connect.</p>
+          <p>We look forward to the opportunity to connect.</p>
 
           <p>
-            Axis Strategies<br/>
-            Executive Pharmacy, 340B, Infusion, and Revenue Strategy
+          Axis Strategies<br/>
+          Executive Pharmacy, 340B, Infusion, and Revenue Strategy
           </p>
         </div>
       `,
     });
 
     return NextResponse.json({ success: true });
+
   } catch (error) {
     console.error("Executive assessment error:", error);
 
