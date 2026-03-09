@@ -429,54 +429,8 @@ export default function AxisStrategiesWebsite() {
       </div>
     </div>
 
-    <div className="rounded-[1.75rem] bg-white p-6 text-slate-900 shadow-2xl sm:rounded-[2rem] sm:p-8">
-      <h3 className="text-xl font-semibold sm:text-2xl">
-        Request Your Assessment
-      </h3>
-      <p className="mt-3 text-sm leading-6 text-slate-600">
-        Use this form to start the conversation. You can connect it to your
-        CRM, inbox, or scheduling tool.
-      </p>
-
-      <form className="mt-6 space-y-4">
-        <input
-          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-          placeholder="Name"
-        />
-        <input
-          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-          placeholder="Organization"
-        />
-        <input
-          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-          placeholder="Title"
-        />
-        <input
-          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-          placeholder="Email"
-        />
-        <div className="grid gap-4 sm:grid-cols-2">
-          <input
-            className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-            placeholder="# Entity Pharmacies"
-          />
-          <input
-            className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-            placeholder="# Contract Pharmacies"
-          />
-        </div>
-        <input
-          className="w-full rounded-2xl border border-slate-300 px-4 py-3 text-base outline-none transition focus:border-blue-900"
-          placeholder="Estimated pharmacy utilization rate (optional)"
-        />
-        <button
-          type="button"
-          className="w-full rounded-2xl bg-blue-900 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5"
-        >
-          Request Assessment
-        </button>
-      </form>
-    </div>
+    <ExecutiveAssessmentForm />
+    
   </div>
 </section>
       {/* CONTACT */}
