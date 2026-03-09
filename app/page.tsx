@@ -1,5 +1,7 @@
 "use client";
 
+import ExecutiveAssessmentForm from "@/components/ExecutiveAssessmentForm";
+
 export default function AxisStrategiesWebsite() {
 
   const services = [
@@ -430,7 +432,7 @@ export default function AxisStrategiesWebsite() {
     </div>
 
     <ExecutiveAssessmentForm />
-    
+
   </div>
 </section>
       {/* CONTACT */}
