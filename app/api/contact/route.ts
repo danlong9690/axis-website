@@ -23,13 +23,13 @@ export async function POST(req: Request) {
       );
     }
 
-    /* EMAIL TO YOU */
+    /* EMAIL TO AXIS */
 
     await resend.emails.send({
       from: "Axis Website <noreply@axisstrategiesgroup.com>",
       to: ["daniel@axisstrategiesgroup.com"],
-      subject: "New Axis Website Contact Submission",
       replyTo: email,
+      subject: "New Axis Website Contact Submission",
       html: `
         <h2>New Contact Form Submission</h2>
 
@@ -46,26 +46,50 @@ export async function POST(req: Request) {
       `,
     });
 
-    /* CONFIRMATION EMAIL TO USER */
+    /* CONFIRMATION EMAIL TO SUBMITTER */
 
     await resend.emails.send({
       from: "Axis Strategies <noreply@axisstrategiesgroup.com>",
       to: [email],
       subject: "We received your message",
       html: `
-        <div style="font-family: Arial, sans-serif; line-height:1.6; color:#0f172a;">
+        <div style="font-family: Arial, sans-serif; line-height:1.6; color:#0f172a; max-width:600px; margin:auto;">
+
+          <div style="text-align:center; padding:20px 0;">
+            <a href="https://axisstrategiesgroup.com" style="text-decoration:none;">
+              <img 
+                src="https://axisstrategiesgroup.com/logo.png" 
+                alt="Axis Strategies"
+                style="max-width:220px; height:auto;"
+              />
+            </a>
+
+            <div style="margin-top:10px; font-size:14px; letter-spacing:1px; color:#475569;">
+              Where Pharmacy Strategy Meets Performance
+            </div>
+          </div>
+
+          <hr style="border:none; border-top:1px solid #e2e8f0; margin:20px 0;" />
+
           <p>Hi ${name},</p>
 
-          <p>Thank you for reaching out to Axis Strategies.</p>
-
-          <p>We received your message and someone from our team will follow up shortly.</p>
-
-          <p>We appreciate the opportunity to connect.</p>
+          <p>
+            Thank you for contacting <strong>Axis Strategies</strong>.
+          </p>
 
           <p>
-          Axis Strategies<br/>
-          Executive Pharmacy, 340B, Infusion, and Revenue Strategy
+            We received your message and a member of our team will follow up shortly.
           </p>
+
+          <p>
+            We appreciate the opportunity to connect.
+          </p>
+
+          <p style="color:#334155;">
+            Axis Strategies<br/>
+            Executive Pharmacy, 340B, Infusion, and Revenue Strategy
+          </p>
+
         </div>
       `,
     });
