@@ -135,12 +135,12 @@ export default function ExecutiveAssessmentForm() {
         />
 
         <button
-          type="submit"
-          disabled={status === "loading"}
-          className="w-full rounded-2xl bg-blue-900 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 disabled:opacity-60"
-        >
-          {status === "loading" ? "Submitting..." : "Request Assessment"}
-        </button>
+  type="submit"
+  disabled={status === "loading"}
+  className="w-full cursor-pointer rounded-2xl bg-blue-900 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 disabled:opacity-60"
+>
+  {status === "loading" ? "Submitting..." : "Request Assessment"}
+</button>
 
         {status === "success" && (
           <p className="text-sm text-green-600">
