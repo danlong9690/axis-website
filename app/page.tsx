@@ -1,6 +1,7 @@
 "use client";
 
 import ExecutiveAssessmentForm from "@/components/ExecutiveAssessmentForm";
+import ContactForm from "@/components/ContactForm";
 
 export default function AxisStrategiesWebsite() {
 
@@ -437,34 +438,25 @@ export default function AxisStrategiesWebsite() {
 </section>
       {/* CONTACT */}
 
-      <section id="contact" className="scroll-mt-64 bg-blue-50 py-20">
+     <section id="contact" className="scroll-mt-64 bg-blue-50 py-20">
+  <div className="mx-auto max-w-5xl px-6 text-center">
+    <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
+      Contact
+    </div>
 
-        <div className="mx-auto max-w-5xl px-6 text-center">
+    <h2 className="mt-3 text-3xl font-semibold text-slate-900">
+      Start a conversation with Axis.
+    </h2>
 
-          <div className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-900">
-            Contact
-          </div>
+    <p className="mt-4 text-lg text-slate-600">
+      Axis partners with healthcare organizations seeking strategic
+      pharmacy leadership, 340B optimization, infusion planning, and
+      revenue growth.
+    </p>
 
-          <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Start a conversation with Axis.
-          </h2>
-
-          <p className="mt-4 text-lg text-slate-600">
-            Axis partners with healthcare organizations seeking strategic
-            pharmacy leadership, 340B optimization, infusion planning, and
-            revenue growth.
-          </p>
-
-          <a
-            href="mailto:info@axisstrategiesgroup.com"
-            className="inline-block mt-8 rounded-xl bg-blue-900 px-6 py-3 text-white"
-          >
-            info@axisstrategiesgroup.com
-          </a>
-
-        </div>
-
-      </section>
+    <ContactForm />
+  </div>
+</section>
 
 
       {/* FOOTER */}
