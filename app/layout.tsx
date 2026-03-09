@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "340B Consulting | URAC & ACHC Specialty Pharmacy Credentialing | Axis Strategies",
+  title:
+    "340B Consulting | URAC & ACHC Specialty Pharmacy Credentialing | Axis Strategies",
   description:
     "Axis Strategies provides executive-level consulting for FQHC pharmacy programs, 340B optimization, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and pharmacy revenue optimization.",
   keywords: [
@@ -28,10 +29,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: "/favicon.ico",
+        type: "image/x-icon",
+      },
+      {
         url: "/favicon.png",
         type: "image/png",
       },
     ],
+    shortcut: ["/favicon.ico"],
+    apple: ["/favicon.png"],
   },
   openGraph: {
     title: "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
@@ -43,9 +50,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/favicon.png",
-        width: 512,
-        height: 512,
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
         alt: "Axis Strategies",
       },
     ],
@@ -55,7 +62,7 @@ export const metadata: Metadata = {
     title: "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
     description:
       "Executive-level consulting for 340B programs, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and revenue optimization.",
-    images: ["/favicon.png"],
+    images: ["/logo.png"],
   },
 };
 
@@ -69,7 +76,7 @@ export default function RootLayout({
     "@type": "ProfessionalService",
     name: "Axis Strategies",
     url: "https://axisstrategiesgroup.com",
-    logo: "https://axisstrategiesgroup.com/favicon.png",
+    logo: "https://axisstrategiesgroup.com/logo.png",
     description:
       "Axis Strategies provides executive-level consulting for FQHC pharmacy programs, 340B optimization, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and pharmacy revenue optimization.",
     areaServed: "United States",
