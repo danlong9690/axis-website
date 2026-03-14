@@ -308,9 +308,9 @@ export default function AxisStrategiesWebsite() {
         <Image
           src="/daniel-long.png"
           alt="Daniel Long"
-          width={420}
-          height={520}
-          className="mx-auto mb-6 rounded-xl shadow-md"
+          width={210}
+          height={260}
+          className="mx-auto mb-6 rounded-xl shadow-md max-w-[210px]"
         />
 
         <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
@@ -340,9 +340,9 @@ export default function AxisStrategiesWebsite() {
         <Image
           src="/christi-epps.png"
           alt="Christi Epps"
-          width={420}
-          height={520}
-          className="mx-auto mb-6 rounded-xl shadow-md"
+          width={210}
+          height={260}
+          className="mx-auto mb-6 rounded-xl shadow-md max-w-[210px]"
         />
 
         <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
