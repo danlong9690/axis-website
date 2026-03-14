@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ExecutiveAssessmentForm from "@/components/ExecutiveAssessmentForm";
 import ContactForm from "@/components/ContactForm";
 
@@ -278,7 +279,8 @@ export default function AxisStrategiesWebsite() {
 
         </div>
 
-      </section>
+</section>
+
 <section id="leadership" className="scroll-mt-64 py-14 sm:py-16 lg:py-20">
   <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
@@ -299,7 +301,18 @@ export default function AxisStrategiesWebsite() {
 
     <div className="mt-10 grid gap-5 md:grid-cols-2 sm:mt-12 sm:gap-6">
 
-      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8">
+      {/* Daniel Long */}
+
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8 text-center">
+
+        <Image
+          src="/daniel-long.png"
+          alt="Daniel Long"
+          width={420}
+          height={520}
+          className="mx-auto mb-6 rounded-xl shadow-md"
+        />
+
         <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
           Daniel Long, PharmD
         </h3>
@@ -316,9 +329,22 @@ export default function AxisStrategiesWebsite() {
           and has overseen pharmacy programs generating more than $175 million
           in annual revenue.
         </p>
+
       </div>
 
-      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8">
+
+      {/* Christi Epps */}
+
+      <div className="rounded-2xl border border-slate-200 p-6 shadow-sm sm:p-8 text-center">
+
+        <Image
+          src="/christi-epps.png"
+          alt="Christi Epps"
+          width={420}
+          height={520}
+          className="mx-auto mb-6 rounded-xl shadow-md"
+        />
+
         <h3 className="text-lg font-semibold text-slate-900 sm:text-xl">
           Christi Epps, PharmD
         </h3>
@@ -335,9 +361,11 @@ export default function AxisStrategiesWebsite() {
           Center organizations and previously led a national pharmacy services
           organization to more than $1B in annual revenue.
         </p>
+
       </div>
 
     </div>
+
   </div>
 </section>
 <section id="insights" className="scroll-mt-64 py-14 sm:py-16 lg:py-20">
