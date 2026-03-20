@@ -69,9 +69,12 @@ export default function AxisStrategiesWebsite() {
 </h1>
 
 <p className="mt-6 text-lg text-slate-600">
-  Axis Strategies helps healthcare organizations strengthen pharmacy
-  performance, optimize 340B strategy, expand specialty and infusion
-  services, and improve long-term financial sustainability.
+  Axis Strategies is an operator-led consulting firm that partners with
+  healthcare organizations to transform pharmacy into a high-performing
+  revenue engine. Acting as a fractional executive team, we design,
+  implement, and optimize 340B, specialty, and infusion programs—
+  delivering measurable financial and clinical outcomes, not just
+  recommendations.
 </p>
 
 <p className="mt-6 text-lg text-slate-600">
