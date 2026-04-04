@@ -4,10 +4,13 @@ import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.axisstrategiesgroup.com"),
+
   title:
     "340B Consulting | URAC & ACHC Specialty Pharmacy Credentialing | Axis Strategies",
   description:
     "Axis Strategies provides executive-level consulting for FQHC pharmacy programs, 340B optimization, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and pharmacy revenue optimization.",
+
   keywords: [
     "340B consulting",
     "FQHC pharmacy consulting",
@@ -26,6 +29,7 @@ export const metadata: Metadata = {
     "pharmacy revenue optimization",
     "contract pharmacy optimization",
   ],
+
   icons: {
     icon: [
       {
@@ -40,29 +44,37 @@ export const metadata: Metadata = {
     shortcut: ["/favicon.ico"],
     apple: ["/favicon.png"],
   },
+
+  alternates: {
+    canonical: "https://www.axisstrategiesgroup.com",
+  },
+
   openGraph: {
-    title: "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
+    title:
+      "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
     description:
       "Executive-level consulting for 340B programs, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and revenue optimization.",
-    url: "https://axisstrategiesgroup.com",
+    url: "https://www.axisstrategiesgroup.com",
     siteName: "Axis Strategies",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/logo.png",
+        url: "https://www.axisstrategiesgroup.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Axis Strategies",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
+    title:
+      "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
     description:
       "Executive-level consulting for 340B programs, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and revenue optimization.",
-    images: ["/logo.png"],
+    images: ["https://www.axisstrategiesgroup.com/logo.png"],
   },
 };
 
@@ -73,25 +85,10 @@ export default function RootLayout({
 }) {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": "Organization", // 🔥 changed from ProfessionalService (better for logo recognition)
     name: "Axis Strategies",
-    url: "https://axisstrategiesgroup.com",
-    logo: "https://axisstrategiesgroup.com/logo.png",
-    description:
-      "Axis Strategies provides executive-level consulting for FQHC pharmacy programs, 340B optimization, URAC and ACHC specialty pharmacy credentialing, pharmacy operations, infusion startup, pharmacy startup, and pharmacy revenue optimization.",
-    areaServed: "United States",
-    serviceType: [
-      "340B Consulting",
-      "FQHC Pharmacy Consulting",
-      "URAC Specialty Pharmacy Credentialing",
-      "ACHC Specialty Pharmacy Credentialing",
-      "Specialty Pharmacy Accreditation",
-      "Pharmacy Operations Consulting",
-      "Infusion Startup",
-      "Pharmacy Startup",
-      "Pharmacy Revenue Optimization",
-      "Contract Pharmacy Optimization",
-    ],
+    url: "https://www.axisstrategiesgroup.com",
+    logo: "https://www.axisstrategiesgroup.com/logo.png",
   };
 
   return (
@@ -99,7 +96,9 @@ export default function RootLayout({
       <body className="bg-white text-slate-800">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
         />
 
         <SiteHeader />
