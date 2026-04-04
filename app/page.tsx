@@ -44,7 +44,7 @@ export default function AxisStrategiesWebsite() {
     "340B optimization and compliance",
     "Pharmacy program oversight",
     "New pharmacy startup and stabilization",
-    "Infusion and specialty growth",
+    "Infusion and specialty growth including ACHC and URAC accreditation",
     "Operational and financial improvement",
   ];
 
@@ -69,7 +69,7 @@ export default function AxisStrategiesWebsite() {
 </h1>
 
 <p className="mt-6 text-lg text-slate-600">
-  Axis Strategies is an operator-led consulting firm that partners with
+  Axis Strategies is a national, operator-led consulting firm that partners with
   healthcare organizations to transform pharmacy into a high-performing
   revenue engine. Acting as a fractional executive team, we design,
   implement, and optimize 340B, specialty, and infusion programs—
