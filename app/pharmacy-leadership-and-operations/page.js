@@ -2,6 +2,10 @@ export const metadata = {
   title: "Pharmacy Leadership and Operations | Axis Strategies",
   description:
     "Axis Strategies provides executive-level pharmacy leadership and operational support for healthcare organizations seeking stronger performance, compliance, accountability, and long-term growth.",
+  alternates: {
+    canonical:
+      "https://www.axisstrategiesgroup.com/pharmacy-leadership-and-operations",
+  },
 };
 
 export default function PharmacyLeadershipAndOperationsPage() {

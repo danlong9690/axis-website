@@ -2,6 +2,10 @@ export const metadata = {
   title: "Executive Advisory Support | Axis Strategies",
   description:
     "Axis Strategies provides ongoing executive-level pharmacy advisory support for healthcare organizations seeking strategic guidance, operational oversight, and long-term program growth.",
+  alternates: {
+    canonical:
+      "https://www.axisstrategiesgroup.com/executive-advisory-support",
+  },
 };
 
 export default function ExecutiveAdvisorySupportPage() {
@@ -70,7 +74,9 @@ export default function ExecutiveAdvisorySupportPage() {
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6">
-              <h3 className="text-lg font-semibold">340B Strategy and Oversight</h3>
+              <h3 className="text-lg font-semibold">
+                340B Strategy and Oversight
+              </h3>
               <p className="mt-3 text-slate-600">
                 Provide ongoing guidance to support 340B program performance,
                 compliance, sustainability, and long-term strategic value.

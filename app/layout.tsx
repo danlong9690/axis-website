@@ -45,10 +45,6 @@ export const metadata: Metadata = {
     apple: ["/favicon.png"],
   },
 
-  alternates: {
-    canonical: "https://www.axisstrategiesgroup.com",
-  },
-
   openGraph: {
     title:
       "Axis Strategies | 340B, Specialty Pharmacy & Infusion Consulting",
@@ -85,7 +81,7 @@ export default function RootLayout({
 }) {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Organization", // 🔥 changed from ProfessionalService (better for logo recognition)
+    "@type": "Organization",
     name: "Axis Strategies",
     url: "https://www.axisstrategiesgroup.com",
     logo: "https://www.axisstrategiesgroup.com/logo.png",
